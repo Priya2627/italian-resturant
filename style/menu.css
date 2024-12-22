@@ -1,0 +1,246 @@
+.msec1{
+    background: linear-gradient(rgba(0, 0, 0.7),rgba(0, 0, 0.7));
+    background: url('../Website\ Images/sec4back.jpg');
+    /* background-size: contain; */
+   
+}
+.msec2{
+    padding: 0 8%;
+    background-color: antiquewhite;
+}
+.msec2 .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15% 0;
+    width: 100%;
+}
+.msec2 .item .dish-img img{
+    width: 35vw;
+    border-radius: 30px;
+    box-shadow: 30px 30px 30px black;
+}
+.msec2 .item .dish-content{
+    width: 40vw;
+}
+.msec2 .dish-content h2{
+    font-family: var(--heading);
+    font-size: 50px;
+    font-weight: 500;
+    margin:30px;
+}
+.msec2 .dish-content img{
+    width: 200;
+    margin-bottom: 10px;
+}
+.msec2 .dish-content .item-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.msec2 .dish-content .item-price div:nth-child(2){
+    margin-left: 50px;
+}
+.msec2 .dish-content .item-price h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}.msec2 .dish-content .item-price p{
+    font-size: 15px;
+    color: rgb(90, 90,90);
+    font-weight: 500;
+}
+.msec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8%;
+    padding-bottom: 3%;
+    background-color: plum;
+}
+.msec3 h1{
+    font-family: var(--heading);
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.msec3 .cheap-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.msec3 .cheap-menu-box{
+    width: 40vw;
+    min-width: 300px;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url('../Website\ Images/sec1main.jpg');
+    /* background: linear-gradient(rgba(0, 0, 0.7),rgba(0, 0, 0.7)); */
+    /* background: url('../Website\ Images/Menu-item-1.jpg'); */
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 2% 4%;
+    color: white;
+}
+.msec3 .cheap-item{
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid grey;
+    padding: 15px 20px;
+
+}
+.msec3 .cheap-item img{
+    width: 80;
+    height: 80px;
+    margin-right: 30px;
+    
+}
+.msec3 .cheap-item h3{
+    font-family: var(--title);
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.msec3 .cheap-item p{
+    font-size: 20px;
+    color: palevioletred;
+}
+.msec3 .cheap-item:last-child{
+    border: none;
+}
+
+@media only screen and(max-width:900px){
+    .msec1{
+        height: 60vh;
+    }
+    .msec1 h1{
+        font-size: 60px;
+    }
+    .msec2{
+        padding: 0 5%;
+    }
+    .msec2 .dish-content h2{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .msec2 .dish-content img{
+        width: 150px;
+        margin-bottom: 0;
+    }
+
+    .msec2 .dish-content .item-price{
+        margin: 30px 0;
+    }
+    .msec2 .dish-content .item-price div:nth-child(2){
+        margin-left: 30px;
+    }
+    .msec2 .dish-content .item-price h3{
+        font-size: 24px;
+    }
+    .msec2 .dish-content .item-price p{
+        font-size: 14px;
+    }
+    .msec3{
+        padding: 0 5%;
+    }
+    .msec3 .cheap-menu{
+        align-items: flex-start;
+    }
+    .msec3 .cheap-menu{
+        width: 42vw;
+        padding: 2% 0;
+    }
+    .msec3 .cheap-item{
+        padding: 15px;
+    }
+    .msec3 .cheap-item h3{
+        font-size: 21px;
+    }
+    .msec3 .cheap-item p{
+        font-size: 13px;
+    
+    }
+}
+
+@media only screen and (max-width:700px){
+    .msec1{
+        height: 40vh;
+    }
+    .msec1 h1{
+        font-size: 50px;
+    }
+    .msec2{
+        padding: 0 5%;
+    }
+    .msec2 .item{
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: 50% 0;
+        width: 100%;
+    }
+    .msec2 .item .dish-content{
+        width: 80vw;
+    }
+    .msec2 .dish-img img{
+        width: 35vw;
+        box-shadow: none;
+        margin-bottom: 30px;
+    }
+    .msec2 .item .dish-content h2{
+        font-size: 35px;
+
+    }
+
+    .msec2 .item .dish-content img{
+        width: 50vw;
+
+    }
+    .msec2 .item .dish-content .item-price{
+        margin: 30px 0;
+    }
+    .msec2 .item .dish-content .item-price div:nth-child(2){
+        margin-left: 50px;
+    }
+    .msec2 .item .dish-content ,.item-price h3{
+        font-size: 20px;
+    }
+    .msec2 .item .dish-content .item-price{
+        font-size: 13px;
+    }
+    .msec2 .item:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .msec3 h1{
+        font-size: 32px;
+    }
+    .msec3{
+        padding: 0 4%;
+    }
+    .msec3 .cheap-menu{
+        align-items: start;
+        flex-direction: column;
+    }
+    .msec3 .cheap-menu-box{
+        width: 50px;
+        margin-bottom: 50px;
+    }
+    .msec3 .cheap-item{
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .msec3 .cheap-item img{
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .msec3 .cheap-item h3{
+        font-size: 24px;
+    }
+    .msec3 .cheap-item p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
