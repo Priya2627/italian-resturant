@@ -41,7 +41,7 @@ header .left{
  header .toggle-icon { 
     background-color: purple;
     height: 40px;
-    width: 40;
+    /* width:10px; */
     text-align: center;
     align-content: center;
     border-radius: 3px;
@@ -160,7 +160,8 @@ header .right ul li:hover{
  }
 
  .sec2{
-    padding: 9% 8%;
+    /* padding: 9% 8%; */
+    margin-top: 1rem;
     background-color:cadetblue;
     display: flex;
     align-items: center;
