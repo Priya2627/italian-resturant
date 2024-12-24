@@ -602,7 +602,7 @@ footer p{
         display: none;
     }
 
-    #inp:checked~#navbar nav ul{
+    #inp:checked~#navbar ul li{
         display: block;
         position: absolute;
         top: 30%;
