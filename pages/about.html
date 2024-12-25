@@ -4,44 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/menu.css">
-    <link rel="stylesheet" href="../style/about.css">
+    <link rel="stylesheet" href="/style/about.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
-    <title>MENU|ITALIAN RESTURANT</title>
+    <title>ITALIAN RESTURANT</title>
 </head>
 <body>
-    <header>
+    <input type="checkbox" id="inp">
+    <label for="inp" id="bars">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+ 
+     <header>
         <div class="left">
             <div class="logo">
-                <h1>PRIRESTURANT</h1>
-                <!-- <img src="/Website Images/562bac05b93c71d7bc06be711af445b3-italian-restaurant-logo-template.webp" alt=""> -->
+                <h1> RESTURANT</h1>
+                 <!-- <img src="/Website Images/562bac05b93c71d7bc06be711af445b3-italian-restaurant-logo-template.webp" alt=""> -->
 
             </div>
             <div class="toggle-icon">
                 <div class="icon" id="bar">
                     <i class="fa-solid fa-bars"></i>
                     
-                </div>
+                </div> 
                 <div class="icon hide" id="xmark">
                     <i class="fa-solid fa-xmark"></i>
                 </div>
             </div>
-
+ 
 
         </div>
         <div class="right hide" id="navbar">
 
             <ul>
-                <a href="../pages/index.html">
-                     <li>HOME</li>
+                <a href="./index.html">
+                     <li class="active">HOME</li>
                 </a>
 
-                <a href="menu.html">
-                    <li class="active">MENU</li>
+                <a href="../pages/menu.html">
+                    <li>MENU</li>
                 </a>
                 
-                <a href="./about.html">
+                <a href="../pages/about.html">
                     <li>ABOUT US</li>
                 </a>
                 <a href="#">
@@ -50,25 +53,32 @@
                 <a href="#">
                     <li class="org-btn">RESERVATION</li>
                 </a>
-
-
             </ul>
         </div>
     </header>
-    <div class="menu-page">
-        <div class="msec1">
-            <h1>Menu</h1>
-            <img src="../italian restaurant website images/italian restaurant website images/aboutsec1.jpg" alt="">
+   <div class="wrapper">
+    <div class="row">
+        <div class="image-section">
+            <img src="../italian restaurant website images/italian restaurant website images/abtsec21.jpg" alt="">
         </div>
-
-       
+        <div class="content">
+            <h1>ABOUT US</h1>
+            <h2>About our restaurant</h2>
+            <p>A restaurant is an establishment that prepares and serves food and drinks to customers.[1] Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast-food restaurants and cafeterias to mid-priced family restaurants, to high-priced luxury establishments.</p>
+        </div>
     </div>
-    <footer>
+</div>
+
+
+
+
+     <footer>
         <h1>Call For All Your Reservation</h1>
-        <h1>+8252157598</h1>
+        <h1>+91-8252157598</h1>
         <p>Copyright &copy;2024PRIYA | All Right Rewards</p>
         <p>email:-prishan2627@gmail.com</p>
     </footer>
     
+   
 </body>
 </html>

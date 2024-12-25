@@ -75,11 +75,11 @@
 .msec3 .cheap-menu-box{
     width: 40vw;
     min-width: 300px;
-    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url('../Website\ Images/sec1main.jpg');
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url('../Website\ Images/aboutsec1.jpg');
     /* background: linear-gradient(rgba(0, 0, 0.7),rgba(0, 0, 0.7)); */
     /* background: url('../Website\ Images/Menu-item-1.jpg'); */
-    background-position: center;
-    background-size: cover;
+    /* background-position: center; */
+    /* background-size: cover; */
     border-radius: 25px;
     padding: 2% 4%;
     color: white;
