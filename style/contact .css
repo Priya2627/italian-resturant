@@ -206,7 +206,6 @@ header .right ul li:hover{
     pointer-events: none;
     transition: 0.5s;
     color: #666;
-
 }
 .contactForm .inputBox input:focus~span,.contactForm .inputBox input:valid~span,
 .contactForm .inputBox textarea:focus~span .contactForm .inputBox textarea:valid~span{
@@ -223,6 +222,24 @@ header .right ul li:hover{
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
-
 }
+@media(max-width: 991px)
+{
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column; 
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,.contactForm{
+        width: 100%;
+    }
+}
+
+
+
+
 
